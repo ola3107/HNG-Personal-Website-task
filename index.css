@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: aliceblue;
+}
+
+a:hover{
+    color: rgb(255, 255, 255, 0.7);
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(30 41 59);
+}
+
+header{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header div{
+    margin-top: 10px;
+}
+
+header div a{
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 1.5rem;
+}
+
+header div a:hover{
+    color: rgb(255, 255, 255, 0.7);
+}
+
+main{
+    color: white;
+}
+
+main section.hero{
+    padding-inline: 10%;
+    padding-block: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-bottom: 1px solid red;
+}
+
+main section.hero div{
+    width: 550px;
+}
+
+main section.hero div h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 1rem;
+}
+
+main section.hero div p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+main section.current-info{
+    text-align: center;
+    padding-block: 5%;
+    border-bottom: 1px solid red;
+
+}
+
+main section.current-info p{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+main section.current-info span{
+    color: aqua;
+}
+
+main section.goals {
+    text-align: center;
+    padding-block: 5%;
+    padding-inline: 10%;
+}
+
+main section.goals h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+main section.goals ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid red;
+}
+
+footer div{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer div a{
+    margin-block: 5px;
+}
+
+
+
+
